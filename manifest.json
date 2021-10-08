@@ -1,0 +1,16 @@
+{
+    "name": "JRH",
+    "version": "0.1",
+    "manifest_version":2,
+    "content_scripts": [
+        {
+            "matches": ["https://services.just.edu.jo/sturegistration/Reg/Default.aspx"],
+            "js": ["content.js"]
+        }
+    ],
+    "browser_action":{
+        "default_popup": "popup.html",
+        "default_title": "JRH"
+    }
+
+}
